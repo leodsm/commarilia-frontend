@@ -18,6 +18,16 @@ A configuração do Firebase está em `src/lib/firebase.js`. Ajuste as chaves co
 
 As notícias são buscadas da coleção `news` do Firestore.
 
+### Populating Firestore with news
+
+Para carregar notícias de exemplo no Firebase, defina a variável de ambiente `GOOGLE_APPLICATION_CREDENTIALS` apontando para o JSON de serviço do projeto e execute:
+
+```bash
+npm run seed:news
+```
+O script lerá `scripts/news.json` e criará os documentos na coleção `news`.
+
+
 ## Estrutura
 ```
 src/
