@@ -4,23 +4,22 @@ import CategoryNav from './components/CategoryNav'
 import NewsCard from './components/NewsCard'
 import NewsModal from './components/NewsModal'
 import StoryViewer from './components/StoryViewer'
-import { newsData, baseFeedOrder } from './data/news'
 import { storyData } from './data/stories'
 import { useInfiniteFeed } from './hooks/useInfiniteFeed'
-
-// Provider de itens: repete o feed base para simular infinito
-function makeProvider(repeat = 30) {
-  const flat = Array.from({ length: repeat }, (_, r) => baseFeedOrder.map((id) => ({
-    key: `${id}-${r}`,
-    baseId: id,
-    ...newsData[id],
-  }))).flat()
-
-  return (offset, limit) => flat.slice(offset, offset + limit)
-}
+import { useNews } from './hooks/useNews'
 
 export default function App() {
-  const provider = useMemo(() => makeProvider(30), [])
+  const news = useNews()
+  const newsMap = useMemo(() => Object.fromEntries(news.map((n) => [n.id, n])), [news])
+
+  const provider = useMemo(() => {
+    if (news.length === 0) return () => []
+    const flat = Array.from({ length: 30 }, (_, r) =>
+      news.map((n) => ({ ...n, key: `${n.id}-${r}`, baseId: n.id }))
+    ).flat()
+    return (offset, limit) => flat.slice(offset, offset + limit)
+  }, [news])
+
   const { items, hasMore, sentinelRef } = useInfiniteFeed(provider, 8)
 
   const [newsOpen, setNewsOpen] = useState(false)
@@ -79,7 +78,7 @@ export default function App() {
         onClose={() => setStoriesOpen(false)}
         onOpenNews={(id) => {
           setStoriesOpen(false)
-          const item = newsData[id]
+          const item = newsMap[id]
           if (item) {
             setSelectedNews(item)
             setNewsOpen(true)
