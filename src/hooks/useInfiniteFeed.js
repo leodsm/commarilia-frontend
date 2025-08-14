@@ -16,7 +16,7 @@ export function useInfiniteFeed(itemsProvider, batch = 8) {
     setItems(newItems)
     setPage(1)
     setHasMore(newItems.length === batch)
-  }, [])
+  }, [itemsProvider, batch])
 
   useEffect(() => {
     if (!hasMore) return

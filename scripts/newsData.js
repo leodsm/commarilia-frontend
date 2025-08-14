@@ -1,6 +1,6 @@
-export const newsData = {
-  mercadoLivre: {
-    id: 'mercadoLivre',
+export const newsData = [
+  {
+    slug: 'mercadoLivre',
     category: 'Marília',
     title: 'Mercado Livre agenda solenidade para início das atividades em Marília',
     image: 'https://marilianoticia.com.br/wp-content/uploads/2025/08/mercado-livre-ok-768x576.jpg',
@@ -11,8 +11,8 @@ export const newsData = {
       <p>A chegada da empresa foi celebrada por lideranças locais como um marco para o desenvolvimento de Marília, posicionando a cidade como um importante polo logístico no interior de São Paulo.</p>
     `,
   },
-  fabioConte: {
-    id: 'fabioConte',
+  {
+    slug: 'fabioConte',
     category: 'Marília',
     title: 'Morre o jornalista e apresentador Fábio Conte, aos 42 anos',
     image: 'https://marilianoticia.com.br/wp-content/uploads/2025/08/489435781_2291614727876947_4869630662561411372_n.jpg',
@@ -23,8 +23,8 @@ export const newsData = {
       <p>O velório acontece no Velório Municipal e o sepultamento está previsto para o final da tarde desta quarta-feira (14), no Cemitério da Saudade.</p>
     `,
   },
-  transito: {
-    id: 'transito',
+  {
+    slug: 'transito',
     category: 'Marília',
     title: 'Zona Oeste de Marília recebe ação para reduzir lentidão no trânsito',
     image: 'https://marilianoticia.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-12-at-10.48.01-768x576.jpeg',
@@ -35,8 +35,8 @@ export const newsData = {
       <p>Agentes de trânsito estão no local para orientar os motoristas durante o período de adaptação. A expectativa é que os primeiros resultados positivos sejam sentidos já nas próximas semanas.</p>
     `,
   },
-  sacolinhas: {
-    id: 'sacolinhas',
+  {
+    slug: 'sacolinhas',
     category: 'Marília',
     title: 'Mudança em lei não garante sacolinhas gratuitas em Marília',
     image: 'https://marilianoticia.com.br/wp-content/uploads/2025/07/sacola-04-768x511.jpg',
@@ -47,6 +47,4 @@ export const newsData = {
       <p>Em Marília, a lei que permite aos supermercados cobrarem pelas sacolas foi aprovada em 2019. Portanto, a prática continuará sendo permitida, e os estabelecimentos podem seguir cobrando pelo produto.</p>
     `,
   },
-}
-
-export const baseFeedOrder = ['mercadoLivre', 'fabioConte', 'transito', 'sacolinhas']
+]
