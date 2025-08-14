@@ -14,6 +14,15 @@ npm install
 npm run dev
 ```
 
+Crie um arquivo `.env` baseado em `.env.example` e preencha as chaves do **Supabase**:
+
+```
+VITE_SUPABASE_URL=... // URL do projeto
+VITE_SUPABASE_ANON_KEY=... // chave pública
+```
+
+As notícias são buscadas da tabela `news` do Supabase.
+
 ## Estrutura
 ```
 src/
@@ -28,6 +37,9 @@ src/
     stories.js
   hooks/
     useInfiniteFeed.js
+    useNews.js
+  lib/
+    supabase.js
   App.jsx
   main.jsx
   index.css
