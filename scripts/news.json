@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mercadoLivre",
+    "category": "Destaques",
+    "publishedAt": "2025-08-14T10:00:00Z",
+    "title": "Mercado Livre agenda solenidade para início das atividades em Marília",
+    "image": "https://marilianoticia.com.br/wp-content/uploads/2025/08/mercado-livre-ok-768x576.jpg",
+    "summary": "Evento acontece na manhã desta quarta-feira (14), no novo centro de distribuição.",
+    "fullText": "<p><strong>MARÍLIA -</strong> O Mercado Livre, gigante do comércio eletrônico na América Latina, agendou para a manhã desta quarta-feira (14), às 10h, a solenidade que marca o início oficial das atividades de seu novo centro de distribuição em Marília. O evento contará com a presença de autoridades e executivos da empresa.</p><p>O novo centro logístico, localizado estrategicamente às margens da rodovia, promete otimizar as entregas na região, gerando empregos e movimentando a economia local.</p>"
+  },
+  {
+    "id": "fabioConte",
+    "category": "Destaques",
+    "publishedAt": "2025-08-13T22:00:00Z",
+    "title": "Morre o jornalista e apresentador Fábio Conte, aos 42 anos",
+    "image": "https://marilianoticia.com.br/wp-content/uploads/2025/08/489435781_2291614727876947_4869630662561411372_n.jpg",
+    "summary": "Profissional estava internado e lutava contra um câncer.",
+    "fullText": "<p><strong>MARÍLIA -</strong> A comunicação de Marília está de luto. Morreu na noite desta terça-feira (13), aos 42 anos, o jornalista e apresentador Fábio Conte. Ele estava internado e lutava contra um câncer.</p><p>Com uma carreira marcada pela versatilidade e carisma, Fábio atuou em diversas emissoras de rádio e televisão da cidade, tornando-se um rosto conhecido e querido pelo público.</p>"
+  },
+  {
+    "id": "transito",
+    "category": "Destaques",
+    "publishedAt": "2025-08-13T11:00:00Z",
+    "title": "Zona Oeste de Marília recebe ação para reduzir lentidão no trânsito",
+    "image": "https://marilianoticia.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-12-at-10.48.01-768x576.jpeg",
+    "summary": "Alterações visam melhorar o fluxo de veículos em horários de pico.",
+    "fullText": "<p><strong>MARÍLIA -</strong> A Emdurb iniciou uma série de alterações no trânsito da zona Oeste da cidade, com o objetivo de diminuir os congestionamentos em horários de pico. As mudanças incluem a implantação de novos semáforos inteligentes e a conversão de algumas ruas para mão única.</p>"
+  },
+  {
+    "id": "sacolinhas",
+    "category": "Destaques",
+    "publishedAt": "2025-08-12T15:00:00Z",
+    "title": "Mudança em lei não garante sacolinhas gratuitas em Marília",
+    "image": "https://marilianoticia.com.br/wp-content/uploads/2025/07/sacola-04-768x511.jpg",
+    "summary": "Nova legislação estadual não se sobrepõe à lei municipal existente.",
+    "fullText": "<p><strong>MARÍLIA -</strong> Uma nova lei estadual que regulamenta a distribuição de sacolas plásticas em São Paulo gerou dúvidas nos consumidores de Marília. No entanto, a mudança não garante a gratuidade das sacolinhas na cidade, pois a legislação municipal, que permite a cobrança, continua em vigor.</p>"
+  },
+  {
+    "id": "animais",
+    "category": "Destaques",
+    "publishedAt": "2025-08-11T18:00:00Z",
+    "title": "Marília vai implantar centro para reabilitação de animais silvestres",
+    "image": "https://images.unsplash.com/photo-1582561833409-2ab3d273f212?q=80&w=800&auto=format&fit=crop",
+    "summary": "Espaço será construído no Bosque Municipal e visa o cuidado e a reintegração de espécies à natureza.",
+    "fullText": "<p><strong>MARÍLIA -</strong> A Prefeitura de Marília anunciou a criação de um Centro de Reabilitação de Animais Silvestres (CRAS) no Bosque Municipal. O espaço será dedicado ao acolhimento, tratamento e reabilitação de animais resgatados na região, com o objetivo de devolvê-los ao seu habitat natural sempre que possível.</p>"
+  },
+  {
+    "id": "bancoLeite",
+    "category": "Região",
+    "publishedAt": "2025-08-10T09:00:00Z",
+    "title": "'Peito de mãe não é depósito, é fábrica', diz coordenadora do Banco de Leite",
+    "image": "https://images.unsplash.com/photo-1615899486509-84e279854378?q=80&w=800&auto=format&fit=crop",
+    "summary": "Campanha busca conscientizar sobre a importância da doação de leite materno e desmistificar crenças.",
+    "fullText": "<p><strong>REGIÃO -</strong> Em meio à campanha de incentivo à doação de leite materno, a coordenadora do Banco de Leite da Santa Casa de Marília, Sandra, reforça uma mensagem importante: \"o peito da mãe é uma fábrica, não um depósito. Quanto mais o bebê mama ou mais a mãe doa, mais leite é produzido\". A fala visa desmistificar o medo de que a doação possa prejudicar a amamentação do próprio filho.</p>"
+  }
+]
